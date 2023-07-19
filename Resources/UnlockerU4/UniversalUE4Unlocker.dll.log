@@ -1,0 +1,191 @@
+[08-06-2023 13:21:51] [ DEBUG ] :: Window found with title: 'UnrealWindow'
+[08-06-2023 13:21:51] [ DEBUG ] :: HWnd of MainWindow: 0x3f0504
+[08-06-2023 13:21:51] [ DEBUG ] :: Raw input registered
+[08-06-2023 13:21:51] [ DEBUG ] :: Hook set to XInputGetState
+[08-06-2023 13:21:51] [ DEBUG ] :: Hook set to GetMessageA
+[08-06-2023 13:21:51] [ DEBUG ] :: Hook set to GetMessageW
+[08-06-2023 13:21:51] [ DEBUG ] :: Hook set to PeekMessageA
+[08-06-2023 13:21:51] [ DEBUG ] :: Hook set to PeekMessageW
+[08-06-2023 13:21:51] [  UUU  ] :: All hooks enabled.
+[08-06-2023 13:21:51] [USERMSG] :: Processing AOB blocks. This can take a while...
+[08-06-2023 13:22:46] [ DEBUG ] :: Pattern for block 'AOB_ALLOWCHEATSCALL' found at address: 00007FF64592CF17
+[08-06-2023 13:22:46] [ DEBUG ] :: Pattern for block 'AOB_CALL_TO_STATICCONSTRUCTOBJECT_INTERNAL' found at address: 00007FF642BA8719
+[08-06-2023 13:22:46] [ DEBUG ] :: Pattern for block 'AOB_CAMERA_BLACKBARS_REMOVAL1' found at address: 00007FF643504DDC
+[08-06-2023 13:22:46] [ DEBUG ] :: Pattern for block 'AOB_CAMERA_BLACKBARS_REMOVAL2' found at address: 00007FF643508E5C
+[08-06-2023 13:22:46] [ DEBUG ] :: Can't find pattern for block 'AOB_CAMERA_BLACKBARS_REMOVAL3'! Hook not set.
+[08-06-2023 13:22:46] [ DEBUG ] :: Can't find pattern for block 'AOB_CAMERA_LOCKED_FOV_READ'! Hook not set.
+[08-06-2023 13:22:46] [ DEBUG ] :: Can't find pattern for block 'AOB_CAMERA_MENU_WRITE_INTERCEPT'! Hook not set.
+[08-06-2023 13:22:46] [ DEBUG ] :: Pattern for block 'AOB_CAMERA_STRUCT_INTERCEPT1' found at address: 00007FF643504D9A
+[08-06-2023 13:22:46] [ DEBUG ] :: Pattern for block 'AOB_CAMERA_STRUCT_INTERCEPT2' found at address: 00007FF643508E1A
+[08-06-2023 13:22:46] [ DEBUG ] :: Can't find pattern for block 'AOB_CAMERA_STRUCT_INTERCEPT3'! Hook not set.
+[08-06-2023 13:22:46] [ DEBUG ] :: Can't find pattern for block 'AOB_CAMERA_WRITE_INTERCEPT'! Hook not set.
+[08-06-2023 13:22:47] [ DEBUG ] :: Pattern for block 'AOB_ENABLE_SET_COMMAND' found at address: 00007FF64568AEC8
+[08-06-2023 13:22:47] [ DEBUG ] :: Pattern for block 'AOB_ENGINEVERSION' found at address: 00007FF643D3A061
+[08-06-2023 13:22:47] [ DEBUG ] :: Pattern for block 'AOB_GAMEVIEWPORTCLIENT_VIEWPORTCONSOLE_OFFSET' found at address: 00007FF645B3D33E
+[08-06-2023 13:22:47] [ DEBUG ] :: Pattern for block 'AOB_GENGINE' found at address: 00007FF645B3D33E
+[08-06-2023 13:22:47] [ DEBUG ] :: Pattern for block 'AOB_GENGINE_VIEWPORTCLIENT_OFFSET' found at address: 00007FF645B3D33E
+[08-06-2023 13:22:48] [ DEBUG ] :: Pattern for block 'AOB_GET_TIMEDILATION' found at address: 00007FF643AA1D70
+[08-06-2023 13:22:48] [ DEBUG ] :: Can't find pattern for block 'AOB_GET_TIMEDILATION_411'! Hook not set.
+[08-06-2023 13:22:48] [ DEBUG ] :: Pattern for block 'AOB_INPUTSETTINGS_CONSOLEKEYS_OFFSET' found at address: 00007FF645B1A36D
+[08-06-2023 13:22:48] [ DEBUG ] :: Pattern for block 'AOB_NAMESSTORE' found at address: 00007FF643D89241
+[08-06-2023 13:22:48] [ DEBUG ] :: Pattern for block 'AOB_OBJECTSSTORE' found at address: 00007FF6459AD3FA
+[08-06-2023 13:22:49] [ DEBUG ] :: Pattern for block 'AOB_UWORLD_ISPAUSED' found at address: 00007FF64577EB78
+[08-06-2023 13:22:49] [ DEBUG ] :: Pattern for block 'AOB_WIDGETOPACITYSET' found at address: 00007FF64407C8D1
+[08-06-2023 13:22:49] [  UUU  ] :: All critical AOB offsets found.
+[08-06-2023 13:22:49] [USERMSG] :: Processing AOB blocks done.
+[08-06-2023 13:22:49] [ DEBUG ] :: CurrentVersion address: 0x7ff643d3a065
+[08-06-2023 13:22:49] [  UUU  ] :: The UUU will assume the game uses UE4 version: v4.27.00
+[08-06-2023 13:22:49] [ DEBUG ] :: GEngine variable address: 0x7ff6485637f0
+[08-06-2023 13:22:49] [ DEBUG ] :: GEngine address: 0x1eb0559f010
+[08-06-2023 13:22:49] [ DEBUG ] :: StaticConstructObject_Internal() address: 0x7ff643f82c30
+[08-06-2023 13:22:49] [ DEBUG ] :: g_GameEngine_ViewPortClientOffset: 0x788
+[08-06-2023 13:22:49] [ DEBUG ] :: g_GameViewportClient_ViewportConsoleOffset: 0x48
+[08-06-2023 13:22:49] [  UUU  ] :: Cheats enabled. Type EnableCheats 1 in the console to allow cheat commands through the console
+[08-06-2023 13:22:49] [ DEBUG ] :: _consoleKeysOffsetInInputSettings: 0x138
+[08-06-2023 13:22:49] [ DEBUG ] :: inputSettingsObject address: 0x1eb6ad74fb0
+[08-06-2023 13:22:49] [ DEBUG ] :: Hash for Tilde is: 0x3a764
+[08-06-2023 13:22:49] [ DEBUG ] :: Hash for Dollar is: 0x3a7a7
+[08-06-2023 13:22:49] [ DEBUG ] :: Hash for Exclamation is: 0x3a7ab
+[08-06-2023 13:22:49] [ DEBUG ] :: Hash for Slash is: 0x3a760
+[08-06-2023 13:22:49] [ DEBUG ] :: Hash for Backslash is: 0x3a778
+[08-06-2023 13:22:49] [ DEBUG ] :: Hash for Comma is: 0x3a74e
+[08-06-2023 13:22:49] [ DEBUG ] :: Hash for Period is: 0x3a75c
+[08-06-2023 13:22:49] [  UUU  ] :: Custom console key functionality available.
+[08-06-2023 13:22:49] [ DEBUG ] :: GameViewportClient address: 0x11a64680
+[08-06-2023 13:22:49] [ DEBUG ] :: Console instance address: 0x2ea2400
+[08-06-2023 13:22:49] [USERMSG] :: Console activated. Press ~ in-game to open the console.
+[08-06-2023 13:22:49] [ DEBUG ] :: g_WorldSettings_TimeDilationOffset: 0x318
+[08-06-2023 13:22:49] [ DEBUG ] :: Hook set to address: 00007FF643AA1D70
+[08-06-2023 13:22:49] [ DEBUG ] :: Hook set to address: 00007FF643504DA4
+[08-06-2023 13:22:49] [ DEBUG ] :: Hook set to address: 00007FF643508E24
+[08-06-2023 13:22:49] [  UUU  ] :: Waiting for camera struct interception...
+[08-06-2023 13:22:51] [USERMSG] :: Camera found.
+[08-06-2023 13:22:51] [ DEBUG ] :: Camera struct address: 000001EB0B082150
+[08-06-2023 13:22:51] [ DEBUG ] :: Hook set to address: 00007FF643504DDC
+[08-06-2023 13:22:51] [ DEBUG ] :: Hook set to address: 00007FF643508E5C
+[08-06-2023 13:22:51] [ DEBUG ] :: Pattern for block 'SET JMP END' found at address: 00007FF64568AF2E
+[08-06-2023 13:23:49] [ DEBUG ] :: Camera struct address: 000001EB0B081B50
+[08-06-2023 13:23:49] [USERMSG] :: Camera enabled
+[08-06-2023 13:24:00] [USERMSG] :: Camera disabled
+[08-06-2023 13:24:18] [ DEBUG ] :: Camera struct address: 000001EB0B081B50
+[08-06-2023 13:24:18] [USERMSG] :: Camera enabled
+[08-06-2023 13:24:19] [USERMSG] :: Camera disabled
+[08-06-2023 13:24:29] [ DEBUG ] :: Camera struct address: 000001EB0B081B50
+[08-06-2023 13:24:29] [USERMSG] :: Camera enabled
+[08-06-2023 13:24:30] [USERMSG] :: Camera disabled
+[08-06-2023 13:25:14] [ DEBUG ] :: Camera struct address: 000001EB0B081B50
+[08-06-2023 13:25:14] [USERMSG] :: Camera enabled
+[08-06-2023 13:25:14] [USERMSG] :: Camera disabled
+[08-06-2023 13:26:42] [ DEBUG ] :: Camera struct address: 000001EB9E40C5D0
+[08-06-2023 13:26:42] [USERMSG] :: Camera enabled
+[08-06-2023 13:26:43] [USERMSG] :: Camera disabled
+[08-06-2023 13:35:25] [ DEBUG ] :: Camera struct address: 000001EBA068A130
+[08-06-2023 13:35:25] [USERMSG] :: Camera enabled
+[08-06-2023 13:35:35] [USERMSG] :: Camera disabled
+[08-06-2023 13:35:42] [ DEBUG ] :: Camera struct address: 000001EBA0689B30
+[08-06-2023 13:35:42] [USERMSG] :: Camera enabled
+[08-06-2023 13:35:45] [USERMSG] :: Camera disabled
+[08-06-2023 13:35:46] [ DEBUG ] :: Camera struct address: 000001EBA0689B30
+[08-06-2023 13:35:46] [USERMSG] :: Camera enabled
+[08-06-2023 13:36:15] [USERMSG] :: Camera disabled
+[08-06-2023 13:36:16] [ DEBUG ] :: Camera struct address: 000001EBA0689B30
+[08-06-2023 13:36:16] [USERMSG] :: Camera enabled
+[08-06-2023 13:37:49] [USERMSG] :: Camera disabled
+[08-06-2023 13:39:10] [ DEBUG ] :: Camera struct address: 000001EBCC55F070
+[08-06-2023 13:39:10] [USERMSG] :: Camera enabled
+[08-06-2023 13:39:21] [USERMSG] :: Camera disabled
+[08-06-2023 13:39:38] [ DEBUG ] :: Camera struct address: 000001EBCC55F070
+[08-06-2023 13:39:38] [USERMSG] :: Camera enabled
+[08-06-2023 13:39:44] [USERMSG] :: Camera disabled
+[08-06-2023 13:46:44] [ DEBUG ] :: Camera struct address: 000001EBCC55F070
+[08-06-2023 13:46:44] [USERMSG] :: Camera enabled
+[08-06-2023 13:46:45] [USERMSG] :: Camera disabled
+[08-06-2023 13:46:49] [ DEBUG ] :: Camera struct address: 000001EBCC55F070
+[08-06-2023 13:46:49] [USERMSG] :: Camera enabled
+[08-06-2023 13:46:50] [USERMSG] :: Camera disabled
+[08-06-2023 13:47:05] [ DEBUG ] :: Camera struct address: 000001EBCC55F070
+[08-06-2023 13:47:05] [USERMSG] :: Camera enabled
+[08-06-2023 13:47:06] [USERMSG] :: Camera disabled
+[08-06-2023 13:47:17] [ DEBUG ] :: Camera struct address: 000001EBCC55F070
+[08-06-2023 13:47:17] [USERMSG] :: Camera enabled
+[08-06-2023 13:47:25] [USERMSG] :: Camera disabled
+[08-06-2023 13:47:33] [ DEBUG ] :: Camera struct address: 000001EBCC55F070
+[08-06-2023 13:47:33] [USERMSG] :: Camera enabled
+[08-06-2023 13:47:34] [USERMSG] :: Camera disabled
+[08-06-2023 13:47:39] [ DEBUG ] :: Camera struct address: 000001EBCC55F070
+[08-06-2023 13:47:39] [USERMSG] :: Camera enabled
+[08-06-2023 13:47:40] [USERMSG] :: Camera disabled
+[08-06-2023 13:49:52] [ DEBUG ] :: Camera struct address: 000001EBCC55F070
+[08-06-2023 13:49:52] [USERMSG] :: Camera enabled
+[08-06-2023 13:49:52] [USERMSG] :: Camera disabled
+[08-06-2023 13:51:00] [ DEBUG ] :: Camera struct address: 000001EB9EE59B30
+[08-06-2023 13:51:00] [USERMSG] :: Camera enabled
+[08-06-2023 13:51:20] [USERMSG] :: Camera disabled
+[08-06-2023 14:03:53] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:03:53] [USERMSG] :: Camera enabled
+[08-06-2023 14:03:57] [USERMSG] :: Camera disabled
+[08-06-2023 14:04:25] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:04:25] [USERMSG] :: Camera enabled
+[08-06-2023 14:04:58] [USERMSG] :: Camera disabled
+[08-06-2023 14:05:29] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:05:29] [USERMSG] :: Camera enabled
+[08-06-2023 14:05:30] [USERMSG] :: Camera disabled
+[08-06-2023 14:05:43] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:05:43] [USERMSG] :: Camera enabled
+[08-06-2023 14:05:44] [USERMSG] :: Camera disabled
+[08-06-2023 14:06:50] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:06:50] [USERMSG] :: Camera enabled
+[08-06-2023 14:06:52] [USERMSG] :: Camera disabled
+[08-06-2023 14:07:17] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:07:17] [USERMSG] :: Camera enabled
+[08-06-2023 14:07:57] [USERMSG] :: Camera disabled
+[08-06-2023 14:08:03] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:08:03] [USERMSG] :: Camera enabled
+[08-06-2023 14:08:44] [USERMSG] :: Camera disabled
+[08-06-2023 14:08:54] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:08:54] [USERMSG] :: Camera enabled
+[08-06-2023 14:08:57] [USERMSG] :: Camera disabled
+[08-06-2023 14:09:01] [ DEBUG ] :: Camera struct address: 000001EBE8D74BF0
+[08-06-2023 14:09:01] [USERMSG] :: Camera enabled
+[08-06-2023 14:09:06] [USERMSG] :: Camera disabled
+[08-06-2023 14:09:07] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:09:07] [USERMSG] :: Camera enabled
+[08-06-2023 14:09:10] [USERMSG] :: Camera disabled
+[08-06-2023 14:09:11] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:09:11] [USERMSG] :: Camera enabled
+[08-06-2023 14:09:14] [USERMSG] :: Camera disabled
+[08-06-2023 14:09:15] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:09:15] [USERMSG] :: Camera enabled
+[08-06-2023 14:09:17] [USERMSG] :: Camera disabled
+[08-06-2023 14:09:18] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:09:18] [USERMSG] :: Camera enabled
+[08-06-2023 14:09:21] [USERMSG] :: Camera disabled
+[08-06-2023 14:09:24] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:09:24] [USERMSG] :: Camera enabled
+[08-06-2023 14:09:27] [USERMSG] :: Camera disabled
+[08-06-2023 14:09:28] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:09:28] [USERMSG] :: Camera enabled
+[08-06-2023 14:09:33] [USERMSG] :: Camera disabled
+[08-06-2023 14:09:42] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:09:42] [USERMSG] :: Camera enabled
+[08-06-2023 14:10:20] [USERMSG] :: Camera disabled
+[08-06-2023 14:10:57] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:10:57] [USERMSG] :: Camera enabled
+[08-06-2023 14:11:04] [USERMSG] :: Camera disabled
+[08-06-2023 14:11:13] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:11:13] [USERMSG] :: Camera enabled
+[08-06-2023 14:11:19] [USERMSG] :: Camera disabled
+[08-06-2023 14:11:24] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:11:24] [USERMSG] :: Camera enabled
+[08-06-2023 14:12:01] [USERMSG] :: Camera disabled
+[08-06-2023 14:12:19] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:12:19] [USERMSG] :: Camera enabled
+[08-06-2023 14:12:27] [USERMSG] :: Camera disabled
+[08-06-2023 14:12:39] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:12:39] [USERMSG] :: Camera enabled
+[08-06-2023 14:12:40] [USERMSG] :: Camera disabled
+[08-06-2023 14:14:13] [ DEBUG ] :: Camera struct address: 000001EBE8D745F0
+[08-06-2023 14:14:13] [USERMSG] :: Camera enabled
+[08-06-2023 14:14:13] [USERMSG] :: Camera movement is locked
+[08-06-2023 14:14:16] [USERMSG] :: Camera movement is unlocked
+[08-06-2023 14:14:16] [USERMSG] :: Camera disabled
